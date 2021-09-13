@@ -1,0 +1,6 @@
+1. The world wide web consists of web pages which are accessed via the internet. The internet is the network of computers that allows the transfer and access of data, potentially through the world wide web.
+2. Computers connect to each-other through data cables and high-frequency radio waves, through this connection they are able to transmit and receive data. 
+3. A directory is a hierarchical file system cataloging structure. Also known as a folder, a directory is home to files and other directories called subdirectories.
+4. Using VCS will allow for the viewing and reverting of previous versions of assingments as well has help improve familiarity with GitHub.
+5. see assignment_02_screenshot.jpg
+6. I don't know if I have a favorite kind of art. I like viewing films, playing games, listening to music, looking at paintings and sculptures, watching hand drawn or stop-motion animation, and so much more that I don't think I could pick a favorite. The most influential to me would be cinema and music. 
