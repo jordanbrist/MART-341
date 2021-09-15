@@ -1,0 +1,4 @@
+1. https://www.thingiverse.com  https://www.youtube.com  https://www.artstation.com
+2. The DNS translates a domain name to a specific IP address. This allows computers to connect to a domain or website without needing to know the specific IP address.
+3. A cookie is a file containing information about a computer or web browser that allows a website to remember the device and load personalized content. 
+4. The three essential parts of a URL are the protocol, domain, and path.
