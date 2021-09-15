@@ -7,6 +7,6 @@
 
 [YouTube](https://www.youtube.com)
 
-[responses.txt](./assignment-03/responses.txt)
+[responses.txt](../assignment-03/responses.txt)
 
-![screenshot.png](./assignment-03/images/screenshot.png)
+![screenshot.png](../assignment-03/images/screenshot.png)
