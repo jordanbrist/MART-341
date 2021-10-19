@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Barnes & Noble
+        </title>
+
+        <meta charset="UTF-8">
+        <meta name="description" content="Assignment 7">
+        <meta name="author" content="Jordan Brist">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            body
+        {
+            background-color: rgb(204, 235, 202);
+            font-family:'Helvetica', 'roboto', 'Candara';
+            font-size: 15px
+        }
+            table, th, td 
+        {
+              border: 1.5px solid black;
+              padding: 3px;
+        }
+
+        </style>
+    </head>
+
+    <body>
+        <img src="./images/business-logo.png" width="400" title="Barnes & Noble logo"/>
+        <h2>Contact Us</h2>
+        <p><a href="mailto:email@barnesandnoble.com">Email</a></p>
+        <address>
+            Barnes & Noble<br />
+            1601 Market Place Dr - Suite 65<br />
+            Great Falls, MT 59404<br />
+            406-452-3299<br />
+        </address>
+                <p>
+                    <table>
+                        <tr>
+                            <th>Store Hours</th>
+                        </tr>
+                        <tr>
+                            <td>Monday</td>
+                            <td>9:00 am - 8:00 pm</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>9:00 am - 8:00 pm</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>9:00 am - 8:00 pm</td>
+                        </tr>
+                        <tr>
+                            <td>Thursday</td>
+                            <td>9:00 am - 8:00 pm</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>9:00 am - 9:00 pm</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday</td>
+                            <td>9:00 am - 9:00 pm</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                            <td>10:00 am - 7:00 pm</td>
+                        </tr>
+                    </table>
+                </p>
+
+            <form method="POST" action="index.html">
+                Name:<br/>
+                <input type="text" id="name" placeholder="Enter your name" autofocus>
+                <p></p>
+                Email:<br/>
+                <input type="text" id="email" placeholder="Enter your email" autofocus>
+                <p></p>
+                Would you like to sign up for our mailing list to receive special offers?<br/>
+                <p></p>   
+                Yes&nbsp;<input type="radio" name="offer" id="offer" value="Y">
+                No&nbsp;<input type="radio" name="offer" id="offer" value="N">
+                <p></p>
+                Comments<br/>
+                <textarea name="comments" id="comments"  placeholder="Type here" rows="8" cols="50"></textarea>
+                <p></p>
+                <input type="submit" name="Submit Form">
+
+            </form>
+    </body>
+
+</html>
