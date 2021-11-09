@@ -1,0 +1,6 @@
+# Assignment 10
+## Jordan Brist
+
+1. Universal selectors style every element on a page, Element selectors select all elements of a certain type, Class selectors style elements of the same class, and ID selectors select unique IDs. Universal styles are usefull if everything on the page needs to have a property that is the same. Element and Class selectors are good for styling groups of elements. ID selectors are good for styling individual elements.
+2. The colors I chose are White (255,255,255), a vibrant red (230, 28, 38), turqouise (109, 204, 207), and a light grey (194, 194, 194). I chose the red and turquoise becuase they were popular colors for appliances and cars in the decade. The white is good at cutting through the other colors and the grey is like a chrome accent but I didn't want it to distract from the main content.
+3. It was really challenging for me to make the containers with the photos side-by-side rather than stacked on top of each-other. I was going to use a table, but I wanted it to be more "floaty" so I tried out some different ways and settled on the flex container, it still needs work though. When the page is resized the containers don't stay in their same locations. The biggest challenge I had was giving myself an appropriate amount of time to complete the assignment. I will definitly be giving myself more time for future assignments.
