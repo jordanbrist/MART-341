@@ -1,0 +1,235 @@
+@font-face {
+    font-family: Android;
+    src: url(../fonts/Android.ttf);
+    font-weight: normal;
+  }
+
+@font-face {
+    font-family: Arrakis;
+    src: url(../fonts/Arrakis.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Aboriginal Sans;
+    src: url(../fonts/AboriginalSansREGULAR.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Aboriginal Sans;
+    src: url(../fonts/AboriginalSansBOLD.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Aboriginal Sans;
+    src: url(../fonts/AboriginalSansBOLDITALIC.ttf);
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+body {
+    background-image: url("../images/image.jpg");
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+ 
+}
+
+
+.text {
+    position: static;
+    color: black;
+    padding-left: 80px;
+    padding-right: 80px;
+    background : rgb(255, 255, 255, 0.9);
+    width: 45em;
+    margin: auto;
+    
+}
+
+#title {
+    position: static;
+    font-family: 'Android', sans-serif;
+    color: rgb(252, 110, 16);
+    font-weight: normal;
+    letter-spacing: 20px;
+    font-size: 50px;
+    padding-top: 20px;
+    width: 17.25em;
+    text-align: center;
+    
+}
+
+
+#quote{
+    color: black;
+    font-size: larger;
+    font-family: 'Arrakis', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+#excerpt{
+    color: black;
+    font-family: 'Aboriginal Sans', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    font-style: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+
+}
+
+#blurb{
+    color: black;
+    font-family: 'Aboriginal Sans', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    font-style: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+
+}
+
+.text p:first-child::first-letter {
+    font-family: 'Android', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.emphasis {
+    font-family: 'Aboriginal Sans', sans-serif;
+    font-style: italic;
+  }
+
+#author {
+    font-family: 'Aboriginal Sans', sans-serif;
+    color:black;
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background : rgb(255, 255, 255, 0.9);
+    width: 43em;
+    margin: auto;
+    text-align: center;
+    border:2px solid rgba(255, 255, 255, 0.5);
+    
+}
+
+
+.learnmore{
+    font-family: 'Aboriginal Sans', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    width: 45em;
+    color: black;
+    
+ }
+
+a:link {
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+    
+ }
+
+a:hover {
+    color: rgb(252, 110, 16);
+    
+ }
+
+ .cover {
+     float: left;
+     padding-right: 40px;
+     padding-bottom: 15px;
+     padding-top: 30px;
+ }
+
+ menu {
+    position: static;
+    text-align: center;
+    padding-left: 9.5em;
+    padding-right: 9.5em;
+    background : rgb(255, 255, 255, 1);
+    font-family: 'Arrakis', sans-serif;
+    text-transform: uppercase;
+    margin: 0 auto;
+    height: 4em;
+    width: 45em;
+}
+
+
+.menu-item {
+    position: static;
+    display: inline-block;
+    margin: 1em .2em;
+    min-width: 6em;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0);
+    padding: 0.5em 1em;
+}
+
+.menu-item a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color: gray;
+    color: rgb(252, 110, 16);
+   
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border: 1px solid rgb(252, 110, 16);
+    margin: 0.5em 0 0 -1em;
+    color: black;
+    background-color: white;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: rgb(252, 110, 16);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+}
+
+
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    min-width: 5.9em;
+}
+.dropdown-text {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    min-width: 5.9em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: black;
+    background-color: gray;
+}
