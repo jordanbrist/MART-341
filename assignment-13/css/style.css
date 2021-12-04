@@ -1,0 +1,21 @@
+body {
+    background-image: url("");
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+ 
+}
+
+
+.text {
+    position: static;
+    color: black;
+    padding-left: 80px;
+    padding-right: 80px;
+    background : rgb(255, 255, 255, 0.9);
+    width: 45em;
+    margin: auto;
+    
+}
