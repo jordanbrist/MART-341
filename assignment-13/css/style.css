@@ -4,18 +4,8 @@
     font-weight: normal;
   }
   @font-face {
-    font-family: Harukaze;
-    src: url(../fonts/Harukaze.ttf);
-    font-weight: normal;
-  }
-  @font-face {
     font-family: Yozakura;
     src: url(../fonts/YOZAKURA-Regular.otf);
-    font-weight: normal;
-  }
-  @font-face {
-    font-family: aAnnyeongHaseyo;
-    src: url(../fonts/aAnnyeongHaseyo.ttf);
     font-weight: normal;
   }
   @font-face {
