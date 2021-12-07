@@ -29,7 +29,7 @@
     top: 20px;
     left: 20px;
     padding: 5px;
-    max-height: 15%;
+    max-width: 120px;
 
 }
 
@@ -40,7 +40,7 @@
         position: fixed;
         top: 20px;
         left: 60px;
-        max-height: 20%;
+        max-width: 160px;
         padding: 5px;
         
     }
@@ -90,13 +90,25 @@ header {
     color: black;
     background-color: white;
     font-family: 'Korean Calligraphy', sans-serif;
-    
-    
     font-style: normal;
-    padding-top: 300px;
+    padding-top: 240px;
     padding-bottom: 20px;
     text-align: left;
 
+}
+
+@media only screen and (min-width: 600px) {
+    #main{
+        color: black;
+        background-color: white;
+        font-family: 'Korean Calligraphy', sans-serif;
+        font-style: normal;
+        font-size: large;
+        padding-top: 350px;
+        padding-bottom: 20px;
+        text-align: left;
+    
+    }
 }
 
 #contact {
@@ -111,6 +123,8 @@ header {
     text-align: center;
 }
 
+
+
 table {
     width: 25%;
     text-align: center;
@@ -123,59 +137,72 @@ table {
     background-color: white;
     font-family: sans-serif;
     font-style: normal;
-    padding-top: 300px;
+    padding-top: 230px;
     padding-bottom: 20px;
     text-align: center;
 }
 
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    #menu {
+        color: black;
+        background-color: white;
+        font-family: sans-serif;
+        font-style: normal;
+        font-size: large;
+        padding-top: 300px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+}
 
-#image1 {
+
+
+.image1 {
     content:url("../images/image1.jpg");
     float: left;
+    padding: 10px;
+    max-width: 40%;
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .image1 {
+        content:url("../images/image1.jpg");
+        padding: 50px;
+        max-width: 30%;
+    }
+}
+
+.image2 {
+    content:url("../images/image 2.jpg");
+    float: right;
+    padding: 10px;
+    max-width: 100%;
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .image2 {
+        content:url("../images/image 2.jpg");
+        padding: 40px;
+        max-width: 60%;
+    }
+}
+
+.image3 {
+    content:url("../images/image 3.jpg");
+    float: right;
     padding: 10px;
     max-width: 200px;
 }
 
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
-    #image1 {
-        content:url("../images/image1.jpg");
-        padding: 50px;
-        max-width: 600px;
-    }
-}
-
-#image2 {
-    content:url("../images/image 2.jpg");
-    float: right;
-    padding: 40px;
-    max-width: 20%;
-}
-
-/* For width 600px and larger: */
-@media only screen and (min-width: 600px) {
-    #image1 {
-        content:url("../images/image 2.jpg");
-        float: right;
-        padding: 40px;
-        max-width: 20%;
-    }
-}
-
-#image3 {
-    content:url("../images/image 3.jpg");
-    float: right;
-    padding: 50px;
-    max-width: 20%;
-}
-
-/* For width 600px and larger: */
-@media only screen and (min-width: 600px) {
-    #image1 {
+    .image3 {
         content:url("../images/image 3.jpg");
-        float: right;
         padding: 50px;
-        max-width: 20%;
+        max-width: 500px;
     }
 }
 
