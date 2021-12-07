@@ -14,12 +14,36 @@
     font-weight: normal;
   }
 
-#logo1{
+/*#logo1{
     position: fixed;
     top: 20px;
     left: 60px;
     max-height: 200px;
     padding: 5px;
+}*/
+
+.logo1{
+    float: left;
+    content:url("../images/Asset 2.png");
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 5px;
+    max-height: 15%;
+
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .logo1{
+        content:url("../images/Asset 2.png");
+        position: fixed;
+        top: 20px;
+        left: 60px;
+        max-height: 20%;
+        padding: 5px;
+        
+    }
 }
 
 header {
@@ -29,15 +53,37 @@ header {
     color: rgb(186, 37, 37);
     background-color: black;
     font-family: 'Yozakura', sans-serif;
-    font-size: 60px;
+    font-size: 35px;
     letter-spacing: 2px;
     line-height: 0%;
-    padding-left: 260px;
-    padding-top: 0px;
+    padding-left: 185px;
+    padding-top: 30px;
     padding-bottom: 5px;
     text-align: left; 
-    height: 230px;
+    height: 200px;
     width: 100%;
+}
+
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    header {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        color: rgb(186, 37, 37);
+        background-color: black;
+        font-family: 'Yozakura', sans-serif;
+        font-size: 60px;
+        letter-spacing: 2px;
+        line-height: 0%;
+        padding-left: 260px;
+        padding-top: 0px;
+        padding-bottom: 5px;
+        text-align: left; 
+        height: 250px;
+        width: 100%;
+    }
 }
 
 #main{
@@ -84,21 +130,55 @@ table {
 
 
 #image1 {
+    content:url("../images/image1.jpg");
     float: left;
-    padding: 50px;
+    padding: 10px;
+    max-width: 200px;
 }
 
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    #image1 {
+        content:url("../images/image1.jpg");
+        padding: 50px;
+        max-width: 600px;
+    }
+}
 
 #image2 {
+    content:url("../images/image 2.jpg");
     float: right;
     padding: 40px;
-    
+    max-width: 20%;
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    #image1 {
+        content:url("../images/image 2.jpg");
+        float: right;
+        padding: 40px;
+        max-width: 20%;
+    }
 }
 
 #image3 {
+    content:url("../images/image 3.jpg");
     float: right;
     padding: 50px;
+    max-width: 20%;
 }
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    #image1 {
+        content:url("../images/image 3.jpg");
+        float: right;
+        padding: 50px;
+        max-width: 20%;
+    }
+}
+
 
 a:link {
     color: black;
@@ -114,25 +194,56 @@ a:hover {
 
  menu {
     position: fixed;
-    top: 220px;
+    top: 210px;
     left: 0px;
-    padding-left: 200px;
+    padding-left: 25px;
     background-color: rgb(186, 37, 37);
     font-family: 'Korean Calligraphy',sans-serif;
     text-transform: uppercase;
     margin-top: 0;
-    height: 4em;
+    height: 3em;
     width: 100%;
     text-align: left;
 }
 
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    menu {
+        position: fixed;
+        top: 245px;
+        left: 0px;
+        padding-left: 200px;
+        background-color: rgb(186, 37, 37);
+        font-family: 'Korean Calligraphy',sans-serif;
+        text-transform: uppercase;
+        margin-top: 0;
+        height: 4em;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+
+
 .menu-item {
     display: inline-block;
-    margin: 1em .2em;
-    min-width: 6em;
+    margin: .5em .2em;
+    min-width: 4em;
     text-align: center;
     background-color: rgb(186, 37, 37);
     padding: 0.5em 1em;
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .menu-item {
+        display: inline-block;
+        margin: 1em .2em;
+        min-width: 6em;
+        text-align: center;
+        background-color: rgb(186, 37, 37);
+        padding: 0.5em 1em;
+    }
 }
 
 .menu-item a {
@@ -158,6 +269,7 @@ a:hover {
     background-color: white;
     z-index: 1;
 }
+
 .dropdown-content a {
     color: rgb(186, 37, 37);
 }
