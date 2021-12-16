@@ -286,11 +286,22 @@ header {
 /* these columns and rows are for the footer logos*/
 .column {
     float: right;
-    width: 1.8%;
+    width: 4%;
     padding: 5px;
     padding-top: 6px;
     margin-right: 10px;
   }
+
+  /* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .column {
+        float: right;
+        width: 1.8%;
+        padding: 5px;
+        padding-top: 6px;
+        margin-right: 10px;
+      }
+}
   
   /* Clear floats after image containers */
   .row::after {
@@ -307,11 +318,11 @@ header {
 
 #contact{
     position: absolute;
-    top: 150px;
+    top: 125px;
     left: 0px;
     background-color: white;
     font-family: 'GG Extralight', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 0;
     width: 100%;
     text-align: center;
@@ -334,15 +345,31 @@ header {
 
 #about{
     position: absolute;
-    top: 150px;
+    top: 125px;
     left: 0px;
     background-color: white;
     font-family: 'GG Light', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 0;
     width: 100%;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 20px;
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    #about{
+        position: absolute;
+        top: 150px;
+        left: 0px;
+        background-color: white;
+        font-family: 'GG Light', Arial, sans-serif;
+        font-size: 20px;
+        margin-top: 0;
+        width: 100%;
+        text-align: center;
+        padding-top: 60px;
+    }
 }
 
 .container{
@@ -352,16 +379,44 @@ header {
     background-color: white;
     color: #17324f;
     font-family: 'GG Light', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 0;
     width: 100%;
     text-align: center;
 }
 
-#photos{
-    border-spacing: 100px;
-    text-align: center;
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .container{
+        position: absolute;
+        top: 210px;
+        left: 0px;
+        background-color: white;
+        color: #17324f;
+        font-family: 'GG Light', Arial, sans-serif;
+        font-size: 20px;
+        margin-top: 0;
+        width: 100%;
+        text-align: center;
+    }
 }
+
+td img{
+    width: 150px;
+    padding: 5px;
+}    
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    td img{
+        width: 500px;
+        padding: 60px;  
+    }      
+        
+}
+
+
+
 
 #artwork{
     border-spacing: 100px;
@@ -396,42 +451,6 @@ a:hover {
     
  }
 
-
-
-
-
-
-.image2 {
-    content:url("../images/image 2.jpg");
-    float: right;
-    padding: 10px;
-    max-width: 100%;
-}
-
-/* For width 600px and larger: */
-@media only screen and (min-width: 600px) {
-    .image2 {
-        content:url("../images/image 2.jpg");
-        padding: 40px;
-        max-width: 60%;
-    }
-}
-
-.image3 {
-    content:url("../images/image 3.jpg");
-    float: right;
-    padding: 10px;
-    max-width: 200px;
-}
-
-/* For width 600px and larger: */
-@media only screen and (min-width: 600px) {
-    .image3 {
-        content:url("../images/image 3.jpg");
-        padding: 50px;
-        max-width: 500px;
-    }
-}
 
     menu {
     position: fixed;
