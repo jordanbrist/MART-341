@@ -355,7 +355,9 @@ header {
     margin-top: 0;
     width: 100%;
     text-align: center;
-    padding-top: 20px;
+
+    padding: 30px;
+
 }
 
 /* For width 600px and larger: */
