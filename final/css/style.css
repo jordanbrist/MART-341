@@ -39,6 +39,16 @@
 
 }
 
+.logo2{
+    content: url("../images/Logo_2.png");
+    display: block;
+    max-width: 10%;
+    float: left;
+    padding-left: 30px;
+    padding-top: 11px;
+    
+}
+
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     .logo1{
