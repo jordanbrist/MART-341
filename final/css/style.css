@@ -84,10 +84,10 @@
 .logo2{
     content: url("../images/Logo_2.png");
     display: block;
-    max-width: 10%;
+    max-width: 8%;
     float: left;
-    padding-left: 30px;
-    padding-top: 11px;
+    padding-left: 0;
+    padding-top: 4px;
     
 }
 
@@ -374,7 +374,7 @@ header {
 
 .container{
     position: absolute;
-    top: 210px;
+    top: 140px;
     left: 0px;
     background-color: white;
     color: #17324f;
@@ -402,41 +402,94 @@ header {
 }
 
 td img{
-    width: 150px;
+    max-height: 150px;
     padding: 5px;
 }    
 
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     td img{
-        width: 500px;
-        padding: 60px;  
-    }      
-        
+        max-height: 300px;
+        padding: 10px;  
+    }        
 }
 
+#photos{
+    border-spacing: -10px;
+    text-align: center;
+    padding-left: 0px;
+}
 
-
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    #photos{
+        border-spacing: 100px;
+        text-align: center;
+        padding-left: 350px;
+    }       
+}
 
 #artwork{
-    border-spacing: 100px;
+    border-spacing: 15px;
     text-align: center;
-    padding-left: 300px;
+    padding-left: 5px;
 }
 
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    #artwork{
+        border-spacing: 100px;
+        text-align: center;
+        padding-left: 400px;
+    }       
+}
 
+iframe {
+    width: 360px;
+    height: 203px;
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    iframe {
+        width: 720px;
+        height: 406px;
+    }     
+}
 
 
 #animation {
-    border-top: 15px solid #27496d;
+    border-top: 5px solid #27496d;
 }
 
-#photography {
-    border-top: 15px solid #547aa2;
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    #animation {
+        border-top: 15px solid #27496d;
+    }
+}
+
+
+#photography{
+    border-top: 5px solid #27496d;
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    #photography {
+        border-top: 15px solid #27496d;
+    }
 }
 
 #art {
-    border-top: 15px solid #17324f;
+    border-top: 5px solid #27496d;
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    #art {
+        border-top: 15px solid #27496d;
+    }
 }
 
 a:link {
@@ -451,12 +504,9 @@ a:hover {
     
  }
 
-
     menu {
-    position: fixed;
+    position: absolute;
     top: 0px;
-    right: 10px;
-    padding-left: 25px;
     background-color: white;
     font-family: 'GG Extralight', Arial, sans-serif;
     margin-top: 0;
@@ -517,12 +567,13 @@ a:hover {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-    z-index: 1;
-  }
-  
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        z-index: 1;
+      }
+
+
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
     display: none;
@@ -536,7 +587,25 @@ a:hover {
     z-index: 1;
     font-size: 14.5px;
   }
+
   
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 3.2em;
+    background-color: white;
+    min-width: 3em;
+    border-radius: 5%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 14.5px;
+  }
+}
+
   /* Links inside the dropdown */
   .dropdown-content a {
     color: #27496d;
@@ -565,6 +634,16 @@ a:hover {
     animation: tableAnim 240s linear 0s infinite normal forwards;
 }
 
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    #slideshow {
+        padding-top: 70px;
+        border-spacing: 70px;
+        animation: tableAnim 240s linear 0s infinite normal forwards;
+    }
+}
+
+
 @keyframes tableAnim {
     0% {
         transform: translateX(0);
@@ -583,15 +662,15 @@ a:hover {
 
   .submenu {
     position: fixed;
-    top: 85px;
+    top: 100px;
     right: 0px;
     padding-left: 0px;
     background-color: white;
     font-family: 'GG Extralight', Arial, sans-serif;
     margin-top: 0;
-    height: 3em;
+    height: 15px;
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
 
 /* For width 600px and larger: */
@@ -642,32 +721,4 @@ a:hover {
     color: black;
     border-radius: 5%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-
-
-/*menu {
-    position: fixed;
-    color: black;
-    background-color: white;
-    font-family: sans-serif;
-    font-style: normal;
-    padding-top: 0;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-/* For width 600px and larger:
-@media only screen and (min-width: 600px) {
-    menu {
-        position: fixed;
-        color: black;
-        background-color: white;
-        font-family: sans-serif;
-        font-style: normal;
-        font-size: large;
-        padding-top: 0px;
-        padding-bottom: 0px;
-
-    }
 }
