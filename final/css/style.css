@@ -14,39 +14,47 @@
     font-weight: normal;
   }
 
-#recent {
+  #recent {
     position: fixed;
     color: #27496d;
     
     height: 15px;
     width: 100%;
     left: 0px;
-    top: 415px;
+    top: 200px;
     font-family: 'GG Extralight', Arial, sans-serif;
     font-weight: normal;
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
-    padding-top: 35px;
+    padding-top: 15px;
 }
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    #recent {
+        position: fixed;
+        color: #27496d;
+        
+        height: 15px;
+        width: 100%;
+        left: 0px;
+        top: 415px;
+        font-family: 'GG Extralight', Arial, sans-serif;
+        font-weight: normal;
+        font-size: 35px;
+        text-align: center;
+        padding-top: 35px;
+    }
+}  
 
 .logo1{
     content:url("../images/Logo_1.png");
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 40%;
+    max-width: 30%;
     animation: logoAnim 1s ease 0s 1 normal forwards;
 
-}
-
-.logo2{
-    content: url("../images/Logo_2.png");
-    display: block;
-    max-width: 10%;
-    float: left;
-    padding-left: 30px;
-    padding-top: 11px;
-    
 }
 
 /* For width 600px and larger: */
@@ -73,15 +81,38 @@
     }
   }
 
+.logo2{
+    content: url("../images/Logo_2.png");
+    display: block;
+    max-width: 10%;
+    float: left;
+    padding-left: 30px;
+    padding-top: 11px;
+    
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .logo2{
+        content: url("../images/Logo_2.png");
+        display: block;
+        max-width: 10%;
+        float: left;
+        padding-left: 30px;
+        padding-top: 11px;
+        
+    }
+}
+
 header {
     position: fixed;
-        top: 65px;
-        left: 0px;
-        background: linear-gradient(0deg, #547aa2, #547aa2 33.33%, #27496d 33.33%, #27496d 66.66%, #17324f 66.66%);
-        font-family: 'GG Light', Arial, sans-serif;
-        text-align: center; 
-        height: 400px;
-        width: 100%;
+    top: 50px;
+    left: 0px;
+    background: linear-gradient(0deg, #547aa2, #547aa2 33.33%, #27496d 33.33%, #27496d 66.66%, #17324f 66.66%);
+    font-family: 'GG Light', Arial, sans-serif;
+    text-align: center; 
+    height: 160px;
+    width: 100%;
 }
 
 
@@ -101,13 +132,13 @@ header {
 
 .header2 {
     position: absolute;
-    top: 0px;
+    top: 50px;
     left: 0px;
     background: #27496d;
     color: white;
     font-family: 'GG Light', Arial, sans-serif;
     text-align: center; 
-    height: 200px;
+    height: 60px;
     width: 100%;
 }
 
@@ -129,13 +160,13 @@ header {
 
 .header3 {
     position: absolute;
-    top: 0px;
+    top: 50px;
     left: 0px;
     background: #547aa2;
     color: white;
     font-family: 'GG Light', Arial, sans-serif;
     text-align: center; 
-    height: 200px;
+    height: 60px;
     width: 100%;
 }
 
@@ -157,13 +188,13 @@ header {
 
 .header4 {
     position: absolute;
-    top: 0px;
+    top: 50px;
     left: 0px;
     background: #17324f;
     color: white;
     font-family: 'GG Light', Arial, sans-serif;
     text-align: center; 
-    height: 200px;
+    height: 60px;
     width: 100%;
 }
 
@@ -189,10 +220,24 @@ header {
     text-align: center;
     font-family: 'GG UltraLight', Arial, Sans-serif;
     margin: auto;
-    font-size: 60px;
+    font-size: 40px;
     text-decoration-line: underline;
     text-decoration-thickness: 1px;
     text-underline-position: under;
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .headerText {
+        color: white;
+        text-align: center;
+        font-family: 'GG UltraLight', Arial, Sans-serif;
+        margin: auto;
+        font-size: 60px;
+        text-decoration-line: underline;
+        text-decoration-thickness: 1px;
+        text-underline-position: under;
+    }
 }
 
 .headerText2 {
@@ -200,8 +245,20 @@ header {
     text-align: center;
     font-family: 'GG UltraLight', Arial, Sans-serif;
     margin: auto;
-    font-size: 60px;
+    font-size: 40px;
     text-decoration: none;
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .headerText2 {
+        color: white;
+        text-align: center;
+        font-family: 'GG UltraLight', Arial, Sans-serif;
+        margin: auto;
+        font-size: 60px;
+        text-decoration: none;
+    }
 }
 
 
@@ -211,10 +268,22 @@ header {
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 3em;
+    height: 2em;
 }
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .footer {
+        position: fixed;
+        background-color: #27496d;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 3em;
+    }
+}
+
+/* these columns and rows are for the footer logos*/
 .column {
     float: right;
     width: 1.8%;
@@ -246,6 +315,21 @@ header {
     margin-top: 0;
     width: 100%;
     text-align: center;
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    #contact{
+        position: absolute;
+        top: 150px;
+        left: 0px;
+        background-color: white;
+        font-family: 'GG Extralight', Arial, sans-serif;
+        font-size: 20px;
+        margin-top: 0;
+        width: 100%;
+        text-align: center;
+    }
 }
 
 #about{
