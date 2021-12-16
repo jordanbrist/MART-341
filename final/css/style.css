@@ -1,0 +1,312 @@
+@font-face {
+    font-family: GG Light;
+    src: url(../fonts/GGX88\ W01\ Light.ttf);
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: GG ExtraLight;
+    src: url(../fonts/GGX88\ W01\ ExtraLight.ttf);
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: GG UltraLight;
+    src: url(../fonts/GGX88\ W01\ UltraLight.ttf);
+    font-weight: normal;
+  }
+
+/*#logo1{
+    position: fixed;
+    top: 20px;
+    left: 60px;
+    max-height: 200px;
+    padding: 5px;
+}*/
+
+.logo1{
+    content:url("../images/Logo_1.png");
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40%;
+    animation: logoAnim 1s ease 0s 1 normal forwards;
+
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .logo1{
+        content:url("../images/Logo_1.png");
+        display: block;
+        padding-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 40%;
+        animation: logoAnim 1s ease 0s 1 normal forwards;
+        
+    }
+}
+
+@keyframes logoAnim {
+    0% {
+      transform: scale(0);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+
+header {
+    position: fixed;
+        top: 65px;
+        left: 0px;
+        background: linear-gradient(0deg, #547aa2, #547aa2 33.33%, #27496d 33.33%, #27496d 66.66%, #17324f 66.66%);
+        font-family: 'GG Light', Arial, sans-serif;
+        text-align: center; 
+        height: 400px;
+        width: 100%;
+}
+
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    header {
+        position: fixed;
+        top: 65px;
+        left: 0px;
+        background: linear-gradient(180deg, #547aa2, #547aa2 33.33%, #27496d 33.33%, #27496d 66.66%, #17324f 66.66%);
+        font-family: 'GG Light', Arial, sans-serif;
+        text-align: center; 
+        height: 400px;
+        width: 100%;
+    }
+}
+
+.footer {
+    position: fixed;
+    background-color: #27496d;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3em;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: right;
+    width: 1.8%;
+    padding: 5px;
+    padding-top: 6px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .column:hover {
+    color: black;
+    border-radius: 50%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+menu {
+    position: fixed;
+    color: black;
+    background-color: white;
+    font-family: sans-serif;
+    font-style: normal;
+    padding-top: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    menu {
+        position: fixed;
+        color: black;
+        background-color: white;
+        font-family: sans-serif;
+        font-style: normal;
+        font-size: large;
+        padding-top: 0px;
+        padding-bottom: 0px;
+
+    }
+}
+
+
+
+
+.image2 {
+    content:url("../images/image 2.jpg");
+    float: right;
+    padding: 10px;
+    max-width: 100%;
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .image2 {
+        content:url("../images/image 2.jpg");
+        padding: 40px;
+        max-width: 60%;
+    }
+}
+
+.image3 {
+    content:url("../images/image 3.jpg");
+    float: right;
+    padding: 10px;
+    max-width: 200px;
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .image3 {
+        content:url("../images/image 3.jpg");
+        padding: 50px;
+        max-width: 500px;
+    }
+}
+
+
+a:link {
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+    
+ }
+
+a:hover {
+    color: white;
+    
+ }
+
+    menu {
+    position: fixed;
+    top: 0px;
+    right: 10px;
+    padding-left: 25px;
+    background-color: white;
+    font-family: 'GG Extralight', Arial, sans-serif;
+    margin-top: 0;
+    height: 3em;
+    width: 100%;
+    text-align: left;
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    menu{
+        position: absolute;
+        top: 0px;
+        right: 10px;
+        background-color: white;
+        font-family: 'GG Extralight', Arial, sans-serif;
+        font-size: 20px;
+        margin-top: 0;
+        height: 3em;
+        width: 100%;
+        text-align: right;
+        
+    }
+}
+
+
+
+.menu-item {
+    display: inline-block;
+    margin: .5em .2em;
+    min-width: 3em;
+    text-align: center;
+    background-color: white;
+    padding: 0.5em 1em;
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .menu-item {
+        display: inline-block;
+        margin: .5em .1em;
+        min-width: 4em;
+        text-align: center;
+        background-color: white;
+        padding: 12px 16px;
+    }
+}
+
+
+.menu-item a {
+    color: #27496d;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    color: black;
+    border-radius: 5%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 3.2em;
+    background-color: white;
+    min-width: 3em;
+    border-radius: 5%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 14.5px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: #27496d;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+
+table {
+    padding-top: 60px;
+    border-spacing: 70px;
+    animation: tableAnim 240s linear 0s infinite normal forwards;
+}
+
+@keyframes tableAnim {
+    0% {
+        transform: translateX(0);
+      }
+    
+      50% {
+        transform: translateX(-4300px);
+      }
+
+    100% { 
+        transform: translateX(4333)
+    }
+
+
+  }
