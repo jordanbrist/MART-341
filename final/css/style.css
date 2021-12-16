@@ -100,7 +100,7 @@ header {
 }
 
 .header2 {
-    position: fixed;
+    position: absolute;
     top: 0px;
     left: 0px;
     background: #27496d;
@@ -115,17 +115,74 @@ header {
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     .header2 {
-        position: fixed;
+        position: absolute;
         top: 65px;
         left: 0px;
         background: #27496d;
         color: white;
         font-family: 'GG Light', Arial, sans-serif;
         text-align: center; 
-        height: 200px;
+        height: 90px;
         width: 100%;
     }
 }
+
+.header3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #547aa2;
+    color: white;
+    font-family: 'GG Light', Arial, sans-serif;
+    text-align: center; 
+    height: 200px;
+    width: 100%;
+}
+
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .header3 {
+        position: absolute;
+        top: 65px;
+        left: 0px;
+        background: #547aa2;
+        color: white;
+        font-family: 'GG Light', Arial, sans-serif;
+        text-align: center; 
+        height: 90px;
+        width: 100%;
+    }
+}
+
+.header4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #17324f;
+    color: white;
+    font-family: 'GG Light', Arial, sans-serif;
+    text-align: center; 
+    height: 200px;
+    width: 100%;
+}
+
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .header4 {
+        position: absolute;
+        top: 65px;
+        left: 0px;
+        background: #17324f;
+        color: white;
+        font-family: 'GG Light', Arial, sans-serif;
+        text-align: center; 
+        height: 90px;
+        width: 100%;
+    }
+}
+
 
 .headerText {
     color: white;
@@ -137,6 +194,16 @@ header {
     text-decoration-thickness: 1px;
     text-underline-position: under;
 }
+
+.headerText2 {
+    color: white;
+    text-align: center;
+    font-family: 'GG UltraLight', Arial, Sans-serif;
+    margin: auto;
+    font-size: 60px;
+    text-decoration: none;
+}
+
 
 .footer {
     position: fixed;
@@ -181,6 +248,58 @@ header {
     text-align: center;
 }
 
+#about{
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    background-color: white;
+    font-family: 'GG Light', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.container{
+    position: absolute;
+    top: 210px;
+    left: 0px;
+    background-color: white;
+    color: #17324f;
+    font-family: 'GG Light', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#photos{
+    border-spacing: 100px;
+    text-align: center;
+}
+
+#artwork{
+    border-spacing: 100px;
+    text-align: center;
+    padding-left: 300px;
+}
+
+
+
+
+#animation {
+    border-top: 15px solid #27496d;
+}
+
+#photography {
+    border-top: 15px solid #547aa2;
+}
+
+#art {
+    border-top: 15px solid #17324f;
+}
+
 a:link {
     color: #17324f;
     font-style: normal;
@@ -193,31 +312,7 @@ a:hover {
     
  }
 
-menu {
-    position: fixed;
-    color: black;
-    background-color: white;
-    font-family: sans-serif;
-    font-style: normal;
-    padding-top: 0;
-    padding-bottom: 20px;
-    text-align: center;
-}
 
-/* For width 600px and larger: */
-@media only screen and (min-width: 600px) {
-    menu {
-        position: fixed;
-        color: black;
-        background-color: white;
-        font-family: sans-serif;
-        font-style: normal;
-        font-size: large;
-        padding-top: 0px;
-        padding-bottom: 0px;
-
-    }
-}
 
 
 
@@ -361,7 +456,7 @@ menu {
   }
   
 
-table {
+#slideshow {
     padding-top: 70px;
     border-spacing: 70px;
     animation: tableAnim 240s linear 0s infinite normal forwards;
@@ -382,3 +477,94 @@ table {
 
 
   }
+
+  .submenu {
+    position: fixed;
+    top: 85px;
+    right: 0px;
+    padding-left: 0px;
+    background-color: white;
+    font-family: 'GG Extralight', Arial, sans-serif;
+    margin-top: 0;
+    height: 3em;
+    width: 100%;
+    text-align: left;
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .submenu{
+        position: absolute;
+        top: 145px;
+        padding-top: 5px;
+        background-color: white;
+        font-family: 'GG Extralight', Arial, sans-serif;
+        font-size: 20px;
+        margin-top: 0px;
+        height: 60px;
+        width: 100%;
+        text-align: center;
+        
+    }
+}
+
+.submenu-item {
+    display: inline-block;
+    margin: auto;
+    min-width: 3em;
+    text-align: center;
+    background-color: white;
+    padding: 0.5em 1em;
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .submenu-item {
+        display: inline-block;
+        margin: auto;
+        min-width: 4em;
+        text-align: center;
+        background-color: white;
+        padding: 12px 100px;
+    }
+}
+
+
+.submenu-item a {
+    color: #27496d;
+    text-decoration: none;
+}
+
+.submenu-item:hover {
+    color: black;
+    border-radius: 5%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+
+/*menu {
+    position: fixed;
+    color: black;
+    background-color: white;
+    font-family: sans-serif;
+    font-style: normal;
+    padding-top: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/* For width 600px and larger:
+@media only screen and (min-width: 600px) {
+    menu {
+        position: fixed;
+        color: black;
+        background-color: white;
+        font-family: sans-serif;
+        font-style: normal;
+        font-size: large;
+        padding-top: 0px;
+        padding-bottom: 0px;
+
+    }
+}
