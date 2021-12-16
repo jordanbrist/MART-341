@@ -89,6 +89,45 @@ header {
     }
 }
 
+.header2 {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: #27496d;
+    color: white;
+    font-family: 'GG Light', Arial, sans-serif;
+    text-align: center; 
+    height: 200px;
+    width: 100%;
+}
+
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .header2 {
+        position: fixed;
+        top: 65px;
+        left: 0px;
+        background: #27496d;
+        color: white;
+        font-family: 'GG Light', Arial, sans-serif;
+        text-align: center; 
+        height: 200px;
+        width: 100%;
+    }
+}
+
+.headerText {
+    color: white;
+    text-align: center;
+    font-family: 'GG UltraLight', Arial, Sans-serif;
+    margin: auto;
+    font-size: 60px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    text-underline-position: under;
+}
+
 .footer {
     position: fixed;
     background-color: #27496d;
@@ -122,7 +161,7 @@ header {
 
 #contact{
     position: absolute;
-    top: 0px;
+    top: 150px;
     left: 0px;
     background-color: white;
     font-family: 'GG Extralight', Arial, sans-serif;
@@ -131,6 +170,18 @@ header {
     width: 100%;
     text-align: center;
 }
+
+a:link {
+    color: #17324f;
+    font-style: normal;
+    text-decoration: none;
+    
+ }
+
+a:hover {
+    color: #547aa2;
+    
+ }
 
 menu {
     position: fixed;
@@ -192,19 +243,6 @@ menu {
         max-width: 500px;
     }
 }
-
-
-a:link {
-    color: black;
-    font-style: normal;
-    text-decoration: none;
-    
- }
-
-a:hover {
-    color: white;
-    
- }
 
     menu {
     position: fixed;
