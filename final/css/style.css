@@ -1,4 +1,4 @@
-@font-face {
+font-face {
     font-family: GG Light;
     src: url(../fonts/GGX88\ W01\ Light.ttf);
     font-weight: normal;
@@ -15,9 +15,7 @@
   }
 
   #recent {
-    position: fixed;
     color: #27496d;
-    
     height: 15px;
     width: 100%;
     left: 0px;
@@ -32,7 +30,6 @@
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     #recent {
-        position: fixed;
         color: #27496d;
         height: 15px;
         width: 100%;
@@ -81,7 +78,6 @@
   }
 
 .logo2{
-    position: absolute;
     content: url("../images/Logo_2.png");
     display: block;
     max-width: 8%;
@@ -105,7 +101,6 @@
 }
 
 header {
-    position: absolute;
     top: 50px;
     left: 0px;
     background: linear-gradient(0deg, #547aa2, #547aa2 33.33%, #27496d 33.33%, #27496d 66.66%, #17324f 66.66%);
@@ -120,7 +115,6 @@ header {
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     header {
-        position: fixed;
         top: 65px;
         left: 0px;
         background: linear-gradient(180deg, #547aa2, #547aa2 33.33%, #27496d 33.33%, #27496d 66.66%, #17324f 66.66%);
@@ -132,7 +126,6 @@ header {
 }
 
 .header2 {
-    position: absolute;
     top: 40px;
     left: 0px;
     background: #27496d;
@@ -147,7 +140,6 @@ header {
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     .header2 {
-        position: absolute;
         top: 65px;
         left: 0px;
         background: #27496d;
@@ -160,7 +152,6 @@ header {
 }
 
 .header3 {
-    position: absolute;
     top: 40px;
     left: 0px;
     background: #547aa2;
@@ -175,7 +166,6 @@ header {
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     .header3 {
-        position: absolute;
         top: 65px;
         left: 0px;
         background: #547aa2;
@@ -188,7 +178,6 @@ header {
 }
 
 .header4 {
-    position: absolute;
     top: 40px;
     left: 0px;
     background: #17324f;
@@ -203,7 +192,6 @@ header {
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     .header4 {
-        position: absolute;
         top: 65px;
         left: 0px;
         background: #17324f;
@@ -264,7 +252,6 @@ header {
 
 
 .footer {
-    position: absolute;
     background-color: #27496d;
     left: 0;
     bottom: 0;
@@ -275,7 +262,6 @@ header {
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     .footer {
-        position: fixed;
         background-color: #27496d;
         left: 0;
         bottom: 0;
@@ -318,7 +304,6 @@ header {
 }
 
 #contact{
-    position: absolute;
     top: 125px;
     left: 0px;
     background-color: white;
@@ -332,7 +317,6 @@ header {
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     #contact{
-        position: absolute;
         top: 150px;
         left: 0px;
         background-color: white;
@@ -345,7 +329,6 @@ header {
 }
 
 #about{
-    position: absolute;
     top: 140px;
     left: 0px;
     background-color: white;
@@ -362,7 +345,6 @@ header {
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     #about{
-        position: absolute;
         top: 150px;
         left: 0px;
         background-color: white;
@@ -376,7 +358,6 @@ header {
 }
 
 .container{
-    position: absolute;
     top: 180px;
     left: 0px;
     background-color: white;
@@ -391,7 +372,6 @@ header {
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     .container{
-        position: absolute;
         top: 210px;
         left: 0px;
         background-color: white;
@@ -545,7 +525,7 @@ a:hover {
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     menu{
-        position: absolute;
+        position: fixed;
         top: 0px;
         right: 10px;
         background-color: white;
@@ -688,7 +668,6 @@ a:hover {
   }
 
   .submenu {
-    position: absolute;
     top: 110px;
     right: 0px;
     padding-left: 0px;
@@ -703,7 +682,6 @@ a:hover {
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     .submenu{
-        position: absolute;
         top: 145px;
         padding-top: 5px;
         background-color: white;
