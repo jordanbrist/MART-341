@@ -34,7 +34,6 @@
     #recent {
         position: fixed;
         color: #27496d;
-        
         height: 15px;
         width: 100%;
         left: 0px;
@@ -82,7 +81,7 @@
   }
 
 .logo2{
-    position: fixed;
+    position: absolute;
     content: url("../images/Logo_2.png");
     display: block;
     max-width: 8%;
@@ -106,7 +105,7 @@
 }
 
 header {
-    position: fixed;
+    position: absolute;
     top: 50px;
     left: 0px;
     background: linear-gradient(0deg, #547aa2, #547aa2 33.33%, #27496d 33.33%, #27496d 66.66%, #17324f 66.66%);
@@ -134,7 +133,7 @@ header {
 
 .header2 {
     position: absolute;
-    top: 50px;
+    top: 40px;
     left: 0px;
     background: #27496d;
     color: white;
@@ -162,13 +161,13 @@ header {
 
 .header3 {
     position: absolute;
-    top: 50px;
+    top: 40px;
     left: 0px;
     background: #547aa2;
     color: white;
     font-family: 'GG Light', Arial, sans-serif;
     text-align: center; 
-    height: 60px;
+    height: 50px;
     width: 100%;
 }
 
@@ -190,13 +189,13 @@ header {
 
 .header4 {
     position: absolute;
-    top: 50px;
+    top: 40px;
     left: 0px;
     background: #17324f;
     color: white;
     font-family: 'GG Light', Arial, sans-serif;
     text-align: center; 
-    height: 60px;
+    height: 50px;
     width: 100%;
 }
 
@@ -265,7 +264,7 @@ header {
 
 
 .footer {
-    position: fixed;
+    position: absolute;
     background-color: #27496d;
     left: 0;
     bottom: 0;
@@ -347,7 +346,7 @@ header {
 
 #about{
     position: absolute;
-    top: 125px;
+    top: 140px;
     left: 0px;
     background-color: white;
     font-family: 'GG Light', Arial, sans-serif;
@@ -378,7 +377,7 @@ header {
 
 .container{
     position: absolute;
-    top: 140px;
+    top: 180px;
     left: 0px;
     background-color: white;
     color: #17324f;
@@ -448,31 +447,27 @@ header {
 
 #photos{
     border-spacing: -10px;
-    text-align: center;
-    padding-left: 0px;
+    float: center;
 }
 
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     #photos{
         border-spacing: 100px;
-        text-align: center;
-        padding-left: 350px;
+        float: center;
     }       
 }
 
 #artwork{
     border-spacing: 15px;
-    text-align: center;
-    padding-left: 5px;
+    float: center;
 }
 
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     #artwork{
         border-spacing: 100px;
-        text-align: center;
-        padding-left: 400px;
+        float: center;
     }       
 }
 
@@ -537,7 +532,7 @@ a:hover {
  }
 
     menu {
-    position: absolute;
+    position: fixed;
     top: 0px;
     background-color: white;
     font-family: 'GG Extralight', Arial, sans-serif;
