@@ -221,7 +221,7 @@ header {
     color: white;
     text-align: center;
     font-family: 'GG UltraLight', Arial, Sans-serif;
-    margin: auto;
+    padding-top: 10px;
     font-size: 40px;
     text-decoration-line: underline;
     text-decoration-thickness: 1px;
@@ -234,7 +234,7 @@ header {
         color: white;
         text-align: center;
         font-family: 'GG UltraLight', Arial, Sans-serif;
-        margin: auto;
+        padding-top: 10px;
         font-size: 60px;
         text-decoration-line: underline;
         text-decoration-thickness: 1px;
@@ -246,7 +246,7 @@ header {
     color: white;
     text-align: center;
     font-family: 'GG UltraLight', Arial, Sans-serif;
-    margin: auto;
+    padding-top: 10px;
     font-size: 40px;
     text-decoration: none;
 }
@@ -257,7 +257,7 @@ header {
         color: white;
         text-align: center;
         font-family: 'GG UltraLight', Arial, Sans-serif;
-        margin: auto;
+		padding-top: 10px;
         font-size: 60px;
         text-decoration: none;
     }
