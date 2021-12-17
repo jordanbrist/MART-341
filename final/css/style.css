@@ -448,31 +448,27 @@ header {
 
 #photos{
     border-spacing: -10px;
-    text-align: center;
-    padding-left: 0px;
+    float: center;
 }
 
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     #photos{
         border-spacing: 100px;
-        text-align: center;
-        padding-left: 350px;
+        float: center;
     }       
 }
 
 #artwork{
     border-spacing: 15px;
-    text-align: center;
-    padding-left: 5px;
+    float: center;
 }
 
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     #artwork{
         border-spacing: 100px;
-        text-align: center;
-        padding-left: 400px;
+        float: center;
     }       
 }
 
