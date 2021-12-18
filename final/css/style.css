@@ -90,6 +90,14 @@
   }
 
 
+    .logo2{
+        position: absolute;
+        content: url("../images/Logo_2.png");
+        display: block;
+        max-width: 6%;
+        float: left;
+    }
+
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     .logo2{
@@ -542,14 +550,12 @@ a:hover {
 
     menu {
     position: absolute;
-    top: 0px;
     right: 0px;
     background-color: white;
     font-family: 'GG Extralight', Arial, sans-serif;
     margin-top: 0;
     height: 3em;
     width: 100%;
-    text-align: center;
 }
 
 /* For width 600px and larger: */
@@ -699,6 +705,7 @@ a:hover {
   
 
 #slideshow {
+    position: absolute;
     padding-top: 70px;
     border-spacing: 70px;
     animation: tableAnim 240s linear 0s infinite normal forwards;
