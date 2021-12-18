@@ -564,13 +564,13 @@ a:hover {
 @media only screen and (min-width: 600px) {
     menu{
         position: absolute;
-        left: -50px;
+        right: 0px;
         background-color: white;
         font-family: 'GG Extralight', Arial, sans-serif;
         font-size: 20px;
         margin-top: 0;
         height: 3em;
-        width: 100%;
+        width: 96.8%;
         text-align: right;
         
     }
@@ -755,6 +755,7 @@ a:hover {
     .submenu{
         position: absolute;
         top: 145px;
+        right: 0px;
         padding-top: 5px;
         background-color: white;
         font-family: 'GG Extralight', Arial, sans-serif;
