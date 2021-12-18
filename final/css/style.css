@@ -89,16 +89,6 @@
     }
   }
 
-.logo2{
-    position: absolute;
-    content: url("../images/Logo_2.png");
-    display: block;
-    max-width: 8%;
-    top: 4px;
-    left: 60px;
-    
-    
-}
 
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
@@ -553,13 +543,13 @@ a:hover {
     menu {
     position: absolute;
     top: 0px;
-    right: 10px;
+    right: 0px;
     background-color: white;
     font-family: 'GG Extralight', Arial, sans-serif;
     margin-top: 0;
     height: 3em;
     width: 100%;
-    text-align: right;
+    text-align: center;
 }
 
 /* For width 600px and larger: */
