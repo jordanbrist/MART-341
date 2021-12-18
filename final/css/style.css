@@ -91,7 +91,7 @@
 
 
     .logo2{
-        position: relative;
+        position: absolute;
         top: 15px;
         left: 12px;
         content: url("../images/Logo_2.png");
@@ -108,8 +108,8 @@
         display: block;
         max-width: 10%;
         float: left;
-        left: 70px;
-        top: 10px;
+        left: 20px;
+        top: 12px;
     }
 }
 
@@ -551,7 +551,7 @@ a:hover {
 
     menu {
     position: absolute;
-    left: 0px;
+    right: 0;
     background-color: white;
     font-family: 'GG Extralight', Arial, sans-serif;
     margin-top: 0;
@@ -565,7 +565,7 @@ a:hover {
 @media only screen and (min-width: 600px) {
     menu{
         position: absolute;
-        right: 0px;
+        right: 0;
         background-color: white;
         font-family: 'GG Extralight', Arial, sans-serif;
         font-size: 20px;
