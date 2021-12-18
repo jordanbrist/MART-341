@@ -92,11 +92,11 @@
 
     .logo2{
         position: absolute;
-        top: 5px;
-        left: 15px;
+        top: 12px;
+        left: 12px;
         content: url("../images/Logo_2.png");
         display: block;
-        max-width: 6%;
+        max-width: 4%;
         float: left;
     }
 
@@ -583,10 +583,10 @@ a:hover {
 .menu-item {
     display: inline-block;
     margin: .5em .2em;
-    min-width: 3em;
+    min-width: 2em;
     text-align: center;
     background-color: white;
-    padding: 0.5em 1em;
+    padding: 0.5em 0.5em;
 }
 
 /* For width 600px and larger: */
@@ -605,7 +605,7 @@ a:hover {
 .menu-item a {
     color: #27496d;
     text-decoration: none;
-    padding: 12px 8px;
+    padding: 8px 5px;
 }
 
 /* For width 600px and larger: */
