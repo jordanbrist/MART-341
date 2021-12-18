@@ -114,7 +114,7 @@
 }
 
 header {
-    position: absolute;
+    position: fixed;
     top: 50px;
     left: 0px;
     background: linear-gradient(0deg, #547aa2, #547aa2 33.33%, #27496d 33.33%, #27496d 66.66%, #17324f 66.66%);
@@ -128,7 +128,7 @@ header {
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     header {
-        position: absolute;
+        position: fixed;
         top: 65px;
         left: 0px;
         background: linear-gradient(180deg, #547aa2, #547aa2 33.33%, #27496d 33.33%, #27496d 66.66%, #17324f 66.66%);
@@ -293,7 +293,7 @@ header {
 
 /* these columns and rows are for the footer logos*/
 .column {
-    float: right;
+    float: left;
     width: 4%;
     padding: 5px;
     padding-top: 6px;
@@ -303,7 +303,7 @@ header {
   /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     .column {
-        float: right;
+        float: left;
         width: 1.8%;
         padding: 5px;
         padding-top: 6px;
@@ -706,7 +706,6 @@ a:hover {
   
 
 #slideshow {
-    position: fixed;
     padding-top: 70px;
     border-spacing: 70px;
     animation: tableAnim 240s linear 0s infinite normal forwards;
