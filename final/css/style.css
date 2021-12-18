@@ -82,7 +82,7 @@
   }
 
 .logo2{
-    position: fixed;
+    position: absolute;
     content: url("../images/Logo_2.png");
     display: block;
     max-width: 8%;
@@ -95,13 +95,13 @@
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     .logo2{
+        position: absolute;
         content: url("../images/Logo_2.png");
         display: block;
         max-width: 10%;
         float: left;
-        padding-left: 30px;
-        padding-top: 11px;
-        
+        left: 70px;
+        top: 10px;
     }
 }
 
@@ -351,25 +351,24 @@ header {
     background-color: white;
     font-family: 'GG Light', Arial, sans-serif;
     font-size: 16px;
-    margin-top: 0;
+    margin: auto;
     width: 100%;
     text-align: center;
-    padding-top: 20px;
+    padding: 20px;
 }
 
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     #about{
-        position: absolute;
+        position: fixed;
         top: 150px;
         left: 0px;
         background-color: white;
         font-family: 'GG Light', Arial, sans-serif;
         font-size: 20px;
-        margin-top: 0;
+        margin: auto;
         width: 100%;
         text-align: center;
-        padding-top: 60px;
     }
 }
 
@@ -444,27 +443,31 @@ header {
 
 #photos{
     border-spacing: 10px;
-    float: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     #photos{
         border-spacing: 100px;
-        float: center;
+        margin-left: auto;
+        margin-right: auto;
     }       
 }
 
 #artwork{
     border-spacing: 15px;
-    float: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     #artwork{
         border-spacing: 100px;
-        float: center;
+        margin-left: auto;
+        margin-right: auto;
     }       
 }
 
@@ -592,11 +595,20 @@ a:hover {
 }
 
     .dropdown {
-        position: relative;
+        position: absolute;
         display: inline-block;
         z-index: 1;
       }
 
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        z-index: 1;
+      }
+}
 
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
