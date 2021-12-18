@@ -97,7 +97,6 @@
         content: url("../images/Logo_2.png");
         display: block;
         max-width: 4%;
-        float: left;
     }
 
 /* For width 600px and larger: */
@@ -107,7 +106,6 @@
         content: url("../images/Logo_2.png");
         display: block;
         max-width: 10%;
-        float: left;
         left: 20px;
         top: 12px;
     }
@@ -293,7 +291,7 @@ header {
 
 /* these columns and rows are for the footer logos*/
 .column {
-    float: left;
+    float: center;
     width: 4%;
     padding: 5px;
     padding-top: 6px;
@@ -303,7 +301,7 @@ header {
   /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     .column {
-        float: left;
+        float: right;
         width: 1.8%;
         padding: 5px;
         padding-top: 6px;
@@ -571,7 +569,7 @@ a:hover {
         font-size: 20px;
         margin-top: 0;
         height: 3em;
-        width: 96.8%;
+        width: 100%;
         text-align: right;
         padding: 0;
     }
