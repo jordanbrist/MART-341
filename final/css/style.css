@@ -92,7 +92,7 @@
 
     .logo2{
         position: absolute;
-        top: 12px;
+        top: 15px;
         left: 12px;
         content: url("../images/Logo_2.png");
         display: block;
