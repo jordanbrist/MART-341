@@ -92,6 +92,8 @@
 
     .logo2{
         position: absolute;
+        top: 5px;
+        left: 15px;
         content: url("../images/Logo_2.png");
         display: block;
         max-width: 6%;
@@ -550,12 +552,13 @@ a:hover {
 
     menu {
     position: absolute;
-    right: 0px;
+    left: 0px;
     background-color: white;
     font-family: 'GG Extralight', Arial, sans-serif;
     margin-top: 0;
     height: 3em;
     width: 100%;
+    text-align: left;
 }
 
 /* For width 600px and larger: */
