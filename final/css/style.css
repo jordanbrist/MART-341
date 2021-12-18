@@ -24,12 +24,12 @@
   }
  
   #recent {
-    position: absolute;
+    position: fixed;
     color: #27496d;   
     height: 15px;
     width: 100%;
     left: 0px;
-    top: 250px;
+    top: 300px;
     font-family: 'GG Extralight', Arial, sans-serif;
     font-weight: normal;
     font-size: 30px;
@@ -705,8 +705,7 @@ a:hover {
   
 
 #slideshow {
-    position: absolute;
-    max-width: 100%;
+    position: fixed;
     padding-top: 70px;
     border-spacing: 70px;
     animation: tableAnim 240s linear 0s infinite normal forwards;
