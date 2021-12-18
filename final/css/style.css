@@ -13,7 +13,16 @@
     src: url(../fonts/GGX88\ W01\ UltraLight.ttf);
     font-weight: normal;
   }
-
+  
+  html,body
+  {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden; 
+  }
+ 
   #recent {
     position: fixed;
     color: #27496d;
@@ -87,7 +96,7 @@
     display: block;
     max-width: 8%;
     top: 4px;
-    left: 4px;
+    left: 60px;
     
     
 }
@@ -132,7 +141,7 @@ header {
 }
 
 .header2 {
-    position: fixed;
+    position: absolute;
     top: 50px;
     left: 0px;
     background: #27496d;
@@ -160,7 +169,7 @@ header {
 }
 
 .header3 {
-    position: fixed;
+    position: absolute;
     top: 50px;
     left: 0px;
     background: #547aa2;
@@ -188,7 +197,7 @@ header {
 }
 
 .header4 {
-    position: fixed;
+    position: absolute;
     top: 50px;
     left: 0px;
     background: #17324f;
@@ -346,22 +355,20 @@ header {
 
 #about{
     position: absolute;
-    top: 125px;
-    left: 0px;
+    top: 150px;
     background-color: white;
     font-family: 'GG Light', Arial, sans-serif;
     font-size: 16px;
     margin: auto;
     width: 100%;
     text-align: center;
-    padding: 20px;
 }
 
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     #about{
         position: fixed;
-        top: 150px;
+        top: 200px;
         left: 0px;
         background-color: white;
         font-family: 'GG Light', Arial, sans-serif;
@@ -371,6 +378,19 @@ header {
         text-align: center;
     }
 }
+
+#about-text{
+    position: relative;
+    background-color: white;
+    font-family: 'GG Light', Arial, sans-serif;
+    font-size: 16px;
+    margin: auto;
+    width: 70%;
+    float: center;
+    text-align: center;
+    left: 50;
+}
+
 
 .container{
     position: absolute;
@@ -532,14 +552,15 @@ a:hover {
  }
 
     menu {
-    position: fixed;
+    position: absolute;
     top: 0px;
+    right: 10px;
     background-color: white;
     font-family: 'GG Extralight', Arial, sans-serif;
     margin-top: 0;
     height: 3em;
     width: 100%;
-    text-align: left;
+    text-align: right;
 }
 
 /* For width 600px and larger: */
@@ -578,7 +599,7 @@ a:hover {
         min-width: 4em;
         text-align: center;
         background-color: white;
-        padding: 12px 16px;
+        
     }
 }
 
@@ -586,7 +607,18 @@ a:hover {
 .menu-item a {
     color: #27496d;
     text-decoration: none;
+    padding: 12px 8px;
 }
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .menu-item a {
+        color: #27496d;
+        text-decoration: none;
+        padding: 12px 16px;
+    }
+}
+
 
 .menu-item:hover {
     color: black;
@@ -595,7 +627,7 @@ a:hover {
 }
 
     .dropdown {
-        position: absolute;
+        position: relative;
         display: inline-block;
         z-index: 1;
       }
@@ -614,14 +646,15 @@ a:hover {
   .dropdown-content {
     display: none;
     position: absolute;
+    left: 0;
     right: 0;
-    top: 3.2em;
+    top: 2.8em;
     background-color: white;
-    min-width: 3em;
+    min-width: 2em;
     border-radius: 5%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    font-size: 14.5px;
+    font-size: 12px;
   }
 
   
@@ -645,10 +678,22 @@ a:hover {
   /* Links inside the dropdown */
   .dropdown-content a {
     color: #27496d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    display: block;
+  }
+ 
+  /* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: #27496d;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
+}
   
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover {
@@ -697,7 +742,7 @@ a:hover {
   }
 
   .submenu {
-    position: fixed;
+    position: absolute;
     top: 100px;
     right: 0px;
     padding-left: 0px;
