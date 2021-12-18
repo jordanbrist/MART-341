@@ -24,13 +24,12 @@
   }
  
   #recent {
-    position: fixed;
-    color: #27496d;
-    
+    position: absolute;
+    color: #27496d;   
     height: 15px;
     width: 100%;
     left: 0px;
-    top: 200px;
+    top: 325px;
     font-family: 'GG Extralight', Arial, sans-serif;
     font-weight: normal;
     font-size: 25px;
@@ -43,7 +42,6 @@
     #recent {
         position: fixed;
         color: #27496d;
-        
         height: 15px;
         width: 100%;
         left: 0px;
@@ -59,9 +57,10 @@
 .logo1{
     content:url("../images/Logo_1.png");
     display: block;
+    padding-top: 25px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 30%;
+    max-width: 40%;
     animation: logoAnim 1s ease 0s 1 normal forwards;
 
 }
@@ -121,7 +120,7 @@ header {
     background: linear-gradient(0deg, #547aa2, #547aa2 33.33%, #27496d 33.33%, #27496d 66.66%, #17324f 66.66%);
     font-family: 'GG Light', Arial, sans-serif;
     text-align: center; 
-    height: 160px;
+    height: 250px;
     width: 100%;
 }
 
@@ -710,7 +709,7 @@ a:hover {
   
 
 #slideshow {
-    padding-top: 70px;
+    padding-top: 400px;
     border-spacing: 70px;
     animation: tableAnim 240s linear 0s infinite normal forwards;
 }
@@ -718,7 +717,7 @@ a:hover {
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     #slideshow {
-        padding-top: 70px;
+        padding-top: 480px;
         border-spacing: 70px;
         animation: tableAnim 240s linear 0s infinite normal forwards;
     }
