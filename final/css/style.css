@@ -114,7 +114,6 @@ header {
     text-align: center; 
     height: 160px;
     width: 100%;
-    padding-top: 30px;
 }
 
 
@@ -133,14 +132,14 @@ header {
 }
 
 .header2 {
-    position: absolute;
+    position: fixed;
     top: 50px;
     left: 0px;
     background: #27496d;
     color: white;
     font-family: 'GG Light', Arial, sans-serif;
     text-align: center; 
-    height: 50px;
+    height: 60px;
     width: 100%;
 }
 
@@ -161,7 +160,7 @@ header {
 }
 
 .header3 {
-    position: absolute;
+    position: fixed;
     top: 50px;
     left: 0px;
     background: #547aa2;
@@ -189,7 +188,7 @@ header {
 }
 
 .header4 {
-    position: absolute;
+    position: fixed;
     top: 50px;
     left: 0px;
     background: #17324f;
@@ -221,7 +220,7 @@ header {
     color: white;
     text-align: center;
     font-family: 'GG UltraLight', Arial, Sans-serif;
-    padding-top: 10px;
+    margin: auto;
     font-size: 40px;
     text-decoration-line: underline;
     text-decoration-thickness: 1px;
@@ -234,7 +233,7 @@ header {
         color: white;
         text-align: center;
         font-family: 'GG UltraLight', Arial, Sans-serif;
-        padding-top: 10px;
+        margin: auto;
         font-size: 60px;
         text-decoration-line: underline;
         text-decoration-thickness: 1px;
@@ -246,7 +245,7 @@ header {
     color: white;
     text-align: center;
     font-family: 'GG UltraLight', Arial, Sans-serif;
-    padding-top: 10px;
+    margin: auto;
     font-size: 40px;
     text-decoration: none;
 }
@@ -257,7 +256,7 @@ header {
         color: white;
         text-align: center;
         font-family: 'GG UltraLight', Arial, Sans-serif;
-		padding-top: 10px;
+        margin: auto;
         font-size: 60px;
         text-decoration: none;
     }
@@ -352,12 +351,10 @@ header {
     background-color: white;
     font-family: 'GG Light', Arial, sans-serif;
     font-size: 16px;
-    margin-top: 20;
+    margin-top: 0;
     width: 100%;
     text-align: center;
-    padding: 20px;
-   
-
+    padding-top: 20px;
 }
 
 /* For width 600px and larger: */
@@ -419,7 +416,7 @@ header {
 }
 .table1 img{
     max-width: 150px;
-    padding: 10px;  
+    padding: 10px; 
 }        
 
 
@@ -434,7 +431,6 @@ header {
 .table2 img{
     max-width: 170px;
     padding: 8px; 
-    padding-left: 20px; 
 }        
 
 
@@ -447,7 +443,7 @@ header {
 }
 
 #photos{
-    border-spacing: -10px;
+    border-spacing: 10px;
     float: center;
 }
 
@@ -533,7 +529,7 @@ a:hover {
  }
 
     menu {
-    position: absolute;
+    position: fixed;
     top: 0px;
     background-color: white;
     font-family: 'GG Extralight', Arial, sans-serif;
@@ -689,8 +685,8 @@ a:hover {
   }
 
   .submenu {
-    position: absolute;
-    top: 110px;
+    position: fixed;
+    top: 100px;
     right: 0px;
     padding-left: 0px;
     background-color: white;
