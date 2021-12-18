@@ -24,12 +24,12 @@
   }
  
   #recent {
-    position: fixed;
+    position: absolute;
     color: #27496d;   
     height: 15px;
     width: 100%;
     left: 0px;
-    top: 300px;
+    top: 225px;
     font-family: 'GG Extralight', Arial, sans-serif;
     font-weight: normal;
     font-size: 30px;
@@ -40,12 +40,12 @@
 /* For width 600px and larger: */
 @media only screen and (min-width: 600px) {
     #recent {
-        position: fixed;
+        position: absolute;
         color: #27496d;
         height: 15px;
         width: 100%;
         left: 0px;
-        top: 415px;
+        top: 355px;
         font-family: 'GG Extralight', Arial, sans-serif;
         font-weight: normal;
         font-size: 35px;
@@ -291,7 +291,7 @@ header {
 
 /* these columns and rows are for the footer logos*/
 .column {
-    float: center;
+    float: right;
     width: 4%;
     padding: 5px;
     padding-top: 6px;
